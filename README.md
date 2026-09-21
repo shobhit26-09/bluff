@@ -4,14 +4,14 @@ A live, fullstack multiplayer version of the classic card game Cheat / Bluff.
 
 ## What is real
 - Account registration and login with bcrypt + JWT
-- Persistent player records and match history in MongoDB
+- Persistent player records and match history in PostgreSQL
 - Authoritative Express + Socket.IO game server
 - Private room codes, reconnect state, 2–6 players
 - Server-side deck, hands, turn order, bluff resolution and win detection
 - Responsive React interface
 
 ## Stack
-React, Vite, Express, Socket.IO, MongoDB / Mongoose, plain JavaScript.
+React, Vite, Express, Socket.IO, PostgreSQL / node-postgres, plain JavaScript.
 
 ## Local setup
 ```bash

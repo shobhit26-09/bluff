@@ -7,7 +7,7 @@ services:
     startCommand: npm start
     healthCheckPath: /
     envVars:
-      - key: MONGODB_URI
+      - key: DATABASE_URL
         sync: false
       - key: JWT_SECRET
         generateValue: true
